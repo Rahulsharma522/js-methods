@@ -52,7 +52,7 @@ function divide(num){
    strings.pop();
 
 // Add a new word in the array
-  strings.push("sentences");
+  strings.push("sentences")
 
 // Remove the first word in the array
     strings.shift();
@@ -96,9 +96,11 @@ var arr = [
 
 ];
 
+
 // Sort the array created above alphabetically
 arr.sort(function(one, two){
-  if(one.firstname < two.firstname) { return -1; }
-  if(one.firstname > two.firstname) { return 1; }
-  return 0;
-})
+    if(one.firstname < two.firstname){ return -1; }
+    return -1
+    if(one.firstname < two.firstname){ return 1; }
+    return 0;
+});
